@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  border: 20px solid rgba(128, 253, 139, 0.716);
+  background-color: #9bf3f1e7;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2.5rem;
+  justify-content: center
+  
+}
+body {
+  background-image: url(frutigeraero1.png);
+  background-size: cover;
+  background-color: #cccccc;
+}
+nav ul {
+  display: flex;
+  border: 10px solid rgba(128, 253, 139, 0.716);
+  background-color: #9bf3f1e7;
+  justify-content: space-evenly;
+  list-style-type: none;
+
+}
+aside.side {
+  display: inline-block;
+  align-content: space-evenly;
+  border: 15px solid rgba(128, 253, 139, 0.716);
+  background-color:#9bf3f1e7;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+}
+
+main {
+  display: block;
+  margin-top: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 15px solid rgba(128, 253, 139, 0.716);
+  background-color: #9bf3f1e7;
+
+}
+
+
