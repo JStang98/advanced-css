@@ -1,10 +1,12 @@
 header {
   display: flex;
+  justify-content: center;
   border: 20px solid rgba(128, 253, 139, 0.716);
   background-color: #9bf3f1e7;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 2.5rem;
-  justify-content: center
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  -webkit-text-stroke: 5px #355b6a;
+  font-size: 2rem;
+  color: rgba(128, 253, 139, 0.716);
   
 }
 body {
@@ -14,28 +16,66 @@ body {
 }
 nav ul {
   display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #11171a;
+  font-size: .3;
+  padding: 10px;
   border: 10px solid rgba(128, 253, 139, 0.716);
   background-color: #9bf3f1e7;
   justify-content: space-evenly;
   list-style-type: none;
 
 }
+
+nav li {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #11171a;
+}
+
+div.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  margin-top: 20px;
+  gap: 30px;
+}
+
 aside.side {
-  display: inline-block;
-  align-content: space-evenly;
+  flex: 0 1 450px;
+  order: 2;
+  min-height: 300px;
+  padding: 15px;
+/* //  display: inline-block;
+  align-content: space-evenly; */
   border: 15px solid rgba(128, 253, 139, 0.716);
   background-color:#9bf3f1e7;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#11171a ;
   font-style: italic;
 }
 
-main {
-  display: block;
-  margin-top: 20px;
+aside.about {
+  flex: 0 0 450px;
+  min-height: 300px;
+  padding: 15px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #11171a;
+  border: 15px solid rgba(128, 253, 139, 0.716) ;
+  background-color:#9bf3f1e7 ;
+}
+
+main {
+  flex: 1 0 500px;
+  min-height: 300px;
+  padding: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #11171a;
   border: 15px solid rgba(128, 253, 139, 0.716);
   background-color: #9bf3f1e7;
 
 }
-
-
+a {
+  display: flex;
+  flex-direction: row ;
+   margin-top: 10px;
+}
